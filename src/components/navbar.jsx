@@ -3,6 +3,7 @@ import GMAIL_ICON from "../assets/images/icons8-email-open-32.png";
 import PHN_ICON from "../assets/images/icons8-phonecall-cute-color-32.png";
 import BREADCRUMB from "../assets/images/breadcrumb.png";
 import { NavLink } from "react-router-dom";
+// import NavbarMobile from "./navbar_mobile";
 
 function Navbar() {
   const contactNo = "+91 9989028355";
@@ -29,7 +30,8 @@ function Navbar() {
                   {emailId}
                 </span>
               </div>
-              <div className="list-none bg-zinc-800 p-2 rounded-lg max-lg:my-1 max-[1370px]:hidden">
+              {/* max-[1370px]:hidden */}
+              <div className="list-none bg-zinc-800 p-2 rounded-lg max-lg:my-1">
                 <div className="items-center flex justify-around italic text-zinc-200 font-semibold tracking-wide">
                   <NavLink to="/" style={toStyleNav}>
                     <li className="hover:text-[#fc8079] cursor-pointer px-2">
@@ -74,10 +76,11 @@ function Navbar() {
               </div>
             </div>
           </div>
-          <div className="bg-zinc-800 p-2 rounded-lg h-12 cursor-pointer min-[1370px]:hidden min-[930px]:hidden">
+          {/* <div className="bg-zinc-800 p-2 rounded-lg h-12 cursor-pointer min-[1370px]:hidden min-[930px]:hidden">
             <img src={BREADCRUMB} alt="breadcrumb_icon" />
-          </div>
+          </div> */}
         </div>
+        {/* <NavbarMobile /> */}
       </nav>
     </>
   );
