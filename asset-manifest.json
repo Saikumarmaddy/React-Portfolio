@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.6e58b96d.css",
-    "main.js": "/React-Portfolio/static/js/main.b13467a4.js",
+    "main.js": "/React-Portfolio/static/js/main.dac6b6b5.js",
     "static/media/Sai Kumar profile image.jpg": "/React-Portfolio/static/media/Sai Kumar profile image.cf534b2a73e32e7b2269.jpg",
     "static/media/Sai_Kumar_Maddala.pdf": "/React-Portfolio/static/media/Sai_Kumar_Maddala.fcdcd0320bb1e0d7c724.pdf",
     "static/media/background_11.wide.jpeg": "/React-Portfolio/static/media/background_11.wide.fe2d4c675e58aa43955f.jpeg",
@@ -11,10 +11,10 @@
     "static/media/TCS.png": "/React-Portfolio/static/media/TCS.5b29b93432362377bdd6.png",
     "index.html": "/React-Portfolio/index.html",
     "main.6e58b96d.css.map": "/React-Portfolio/static/css/main.6e58b96d.css.map",
-    "main.b13467a4.js.map": "/React-Portfolio/static/js/main.b13467a4.js.map"
+    "main.dac6b6b5.js.map": "/React-Portfolio/static/js/main.dac6b6b5.js.map"
   },
   "entrypoints": [
     "static/css/main.6e58b96d.css",
-    "static/js/main.b13467a4.js"
+    "static/js/main.dac6b6b5.js"
   ]
 }

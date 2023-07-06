@@ -5,7 +5,7 @@
   "background_color": "#2d92e3",
   "display": "standalone",
   "scope": "/",
-  "start_url": "http://localhost:3000/index.html",
+  "start_url": "/React-Portfolio/",
   "icons": [
     {
       "src": "maskable.png",
