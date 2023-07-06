@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6e58b96d.css",
-    "main.js": "/React-Portfolio/static/js/main.18b34ff1.js",
-    "static/media/Sai Kumar profile image.jpg": "/React-Portfolio/static/media/Sai Kumar profile image.cf534b2a73e32e7b2269.jpg",
-    "static/media/Sai_Kumar_Maddala.pdf": "/React-Portfolio/static/media/Sai_Kumar_Maddala.fcdcd0320bb1e0d7c724.pdf",
-    "static/media/background_11.wide.jpeg": "/React-Portfolio/static/media/background_11.wide.fe2d4c675e58aa43955f.jpeg",
-    "static/media/responsibilities.webp": "/React-Portfolio/static/media/responsibilities.9ee8d6b17a4de5701380.webp",
-    "static/media/ACC.png": "/React-Portfolio/static/media/ACC.503dd100a669975566b4.png",
-    "static/media/TCS.png": "/React-Portfolio/static/media/TCS.5b29b93432362377bdd6.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.6e58b96d.css.map": "/React-Portfolio/static/css/main.6e58b96d.css.map",
-    "main.18b34ff1.js.map": "/React-Portfolio/static/js/main.18b34ff1.js.map"
+    "main.css": "/static/css/main.7452ba5d.css",
+    "main.js": "/static/js/main.92d5ceff.js",
+    "static/media/Sai Kumar profile image.jpg": "/static/media/Sai Kumar profile image.cf534b2a73e32e7b2269.jpg",
+    "static/media/Sai_Kumar_Maddala.pdf": "/static/media/Sai_Kumar_Maddala.fcdcd0320bb1e0d7c724.pdf",
+    "static/media/background_11.wide.jpeg": "/static/media/background_11.wide.fe2d4c675e58aa43955f.jpeg",
+    "static/media/responsibilities.webp": "/static/media/responsibilities.9ee8d6b17a4de5701380.webp",
+    "service-worker.js": "/service-worker.js",
+    "static/media/ACC.png": "/static/media/ACC.503dd100a669975566b4.png",
+    "static/media/TCS.png": "/static/media/TCS.5b29b93432362377bdd6.png",
+    "index.html": "/index.html",
+    "main.7452ba5d.css.map": "/static/css/main.7452ba5d.css.map",
+    "main.92d5ceff.js.map": "/static/js/main.92d5ceff.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e58b96d.css",
-    "static/js/main.18b34ff1.js"
+    "static/css/main.7452ba5d.css",
+    "static/js/main.92d5ceff.js"
   ]
 }
