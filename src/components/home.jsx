@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../assets/docs/Sai_Kumar_Maddala.pdf";
+import Linkedin from "./linkedin_badge";
 
 function Home() {
   const opening_line = "Hello,";
@@ -16,25 +17,30 @@ function Home() {
   return (
     <>
       <section className="w-full px-20 pt-10">
-        <div className="h-47vh p-4 flex flex-col justify-center">
-          <div className="font-serif p-2">
-            <div className="py-1 text-3xl text-white">{opening_line}</div>
-            <div className="py-1 text-5xl text-[#cfd9e1] font-bold">
-              {resource_name}
+        <div className="h-47vh p-4 flex justify-between">
+          <div className="h-47vh p-4 flex flex-col justify-center">
+            <div className="font-serif p-2">
+              <div className="py-1 text-3xl text-white">{opening_line}</div>
+              <div className="py-1 text-5xl text-[#cfd9e1] font-bold">
+                {resource_name}
+              </div>
+              <div className="py-1 text-4xl text-[#fc8079] font-semibold">
+                {role}
+              </div>
             </div>
-            <div className="py-1 text-4xl text-[#fc8079] font-semibold">
-              {role}
+            <div className="px-2 block">
+              <button
+                className="px-4 py-2 text-xl tracking-wide rounded-md bg-[#fc8079] border-2 border-transparent text-white font-semibold
+              hover:bg-transparent hover:border-2 hover:border-[#fc8079] hover:font-bold hover:tracking-wide"
+              >
+                <a href={CV} download="" target="_blank" rel="noreferrer">
+                  {download_cv}
+                </a>
+              </button>
             </div>
           </div>
-          <div className="px-2 block">
-            <button
-              className="px-4 py-2 text-xl tracking-wide rounded-md bg-[#fc8079] border-2 border-transparent text-white font-semibold
-            hover:bg-transparent hover:border-2 hover:border-[#fc8079] hover:font-bold hover:tracking-wide"
-            >
-              <a href={CV} download="" target="_blank" rel="noreferrer">
-                {download_cv}
-              </a>
-            </button>
+          <div className="pt-14">
+            {<Linkedin /> ? <Linkedin /> : <h6>"Loading..."</h6>}
           </div>
         </div>
         <div className="h-47vh p-4 flex flex-col justify-center items-center">
