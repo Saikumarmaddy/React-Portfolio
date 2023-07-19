@@ -30,8 +30,11 @@ function Navbar() {
                   {emailId}
                 </span>
               </div>
-              {/* max-[1370px]:hidden */}
-              <div className="list-none bg-zinc-800 p-2 rounded-lg max-lg:my-1 max-[1365px]:hidden">
+              {/* max-[1365px]:hidden */}
+              <div
+                className="list-none bg-zinc-800 p-2 rounded-lg max-lg:my-1"
+                style={{ "font-size": "9px" }}
+              >
                 <div className="items-center flex justify-around italic text-zinc-200 font-semibold tracking-wide">
                   <NavLink to="/React-Portfolio" style={toStyleNav}>
                     <li className="hover:text-[#fc8079] cursor-pointer px-2">
