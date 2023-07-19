@@ -13,47 +13,57 @@ function Experience() {
       org: "Accenture",
       role: "Application Development Senior Analyst Jan'23 - Present",
       exp: "• Working in creating Functional design documents with thorough understanding of the retail domain functionalities.\n• I have been working in integrating Enactor a 3rd party tool to existing client web application by adding custom UI functionalities to the web application.\n• This work helps me in understanding the Functional side of the project, as I involve in creating FDs, Process Flows etc…\n 𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: Enactor Integration, XML creation, ReactJS, JavaScript, HTML, CSS...",
+      platform: "Integrating Enactor with Retail(POS) platform",
+      period: "Jan'23 - Present",
     },
     {
       org: "Accenture",
       role: "Application Development Senior Analyst Jan'22 - Dec'22",
       exp: "• Worked in developing an application where users can view and track their submitted requests.\n• This application has developed adapting latest web accessibility standards so that visually impaired and hearing-impaired users can also access the application with ease.\n𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: ReactJS, CSS/LESS, JavaScript, GIT, HTML, CSS...",
+      platform: "Online Retirement funds platform",
+      period: "Jan'22 - Dec'22",
     },
     {
       org: "Accenture",
       role: "Application Development Analyst Jun'21 - Jan'22",
       exp: "• Developed a case management portal using NextJS and Stencil framework and getting it deployed into the CI CD pipeline through code commit.\n• User will be provided with a service where he can submit a form and the respective team addresses the ticket and resolves the issue.\n𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: NextJS, Tailwind CSS, JavaScript, AWS, HTML, CSS...",
+      platform: "Case Management Portal",
+      period: "Jun'21 - Jan'22",
     },
     {
       org: "Tata Consultancy Services (TCS)",
       role: "System Engineer Jun'20 - May'21",
       exp: "• Developed a Udemy like web application, wherein user able to buy courses for which tech stack included HTML, CSS, JavaScript, Axios, ReactJS, Tailwind, NodeJS.\n• I do have experience in Jest/React testing library to perform Unit Testing for the code developed.Performing QA for the designs and code helped me to code in an efficient way, Cypress has been used in performing QA.\n𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: ReactJS, Tailwind CSS, JavaScript, GIT, HTML, CSS...",
+      platform: "Online Learning Platform",
+      period: "Jun'20 - May'21",
     },
     {
       org: "Tata Consultancy Services (TCS)",
       role: "Junior System Engineer Jan'19 - May'20",
       exp: "• Worked as a Verification and Validation Engineer in Avionics domain, wherein I supposed to develop test cases to ensure quality of the code.\n• Test cases are developed with thorough analysis and review of Low Level and High-Level Requirements.",
+      platform: "Verification and Validation Engineer",
+      period: "Jan'19 - May'20",
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full px-20 h-screen font-medium text-center text-[#d19c96] font-fangsong">
-      <div className="flex-col justify-center items-center w-2/5 h-2/6 px-20">
+    <div className="flex justify-between items-center w-full px-20 h-screen font-medium text-center text-[#d19c96] font-fangsong max-[1010px]:flex-col max-[1010px]:justify-stretch max-[1010px]:pt-44 max-[730px]:px-6">
+      <div className="min-[1010px]:flex-col justify-center items-center w-2/5 h-2/6 px-20 flex max-[1010px]:w-4/5 max-[1010px]:4/6 max-[730px]:px-0">
         <div className="w-full h-1/2">
           <img
             src={acc_image}
             alt="acc_image"
-            className="w-3/4 h-3/5 rounded-lg"
+            className="w-3/4 h-3/5 rounded-lg max-[450px]:w-4/5"
           />
         </div>
         <div className="w-full h-1/2">
           <img
             src={tcs_image}
             alt="tcs_image"
-            className="w-3/4 h-3/5 rounded-lg"
+            className="w-3/4 h-3/5 rounded-lg max-[450px]:w-4/5"
           />
         </div>
       </div>
-      <div className="w-4/6">
+      <div className="w-4/6 max-[1010px]:w-full">
         <Accordion
           transition={{
             duration: "300ms",
@@ -64,7 +74,7 @@ function Experience() {
             <AccordionItem>
               {({ open }) => (
                 <>
-                  <AccordionHeader className="w-full flex justify-between text-[#b2bc8d] border-b p-4 font-semibold italic text-2xl">
+                  <AccordionHeader className="w-full flex text-[#b2bc8d] border-b p-4 font-semibold italic text-2xl max-[1010px]:text-lg max-[450px]:text-base max-[1010px]:justify-between">
                     <span className="flex-none">
                       <svg
                         class={`w-6 h-6 ${!open ? "" : "rotate-90"}`}
@@ -79,8 +89,10 @@ function Experience() {
                         />
                       </svg>
                     </span>
-                    <span className="grow text-left">{item.org}</span>
-                    <span className="flex-none text-left">{item.role}</span>
+                    {/* <span className="grow text-left">{item.org}</span>
+                    <span className="flex-none text-left">{item.role}</span> */}
+                    <span className="grow text-left">{item.platform}</span>
+                    <span className="flex-none text-left">{item.period}</span>
                   </AccordionHeader>
                   <AccordionBody>
                     <div className="p-5 text-lg font-medium text-[#cfd9e1] text-left whitespace-pre">
