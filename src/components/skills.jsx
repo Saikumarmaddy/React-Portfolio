@@ -23,7 +23,7 @@ function Skills() {
         <span className="text-[#d19c96] font-semibold italic text-4xl">
           {about_text_one}
         </span>
-        <span>{about_text_two}</span>
+        <span className="max-[450px]:text-xl">{about_text_two}</span>
         <div>
           {/* <span>{about_text_three}</span> */}
           {/* <span>{about_text_four}</span> */}

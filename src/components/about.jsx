@@ -14,7 +14,7 @@ function About() {
           className="w-3/4 h-3/5 rounded-lg max-[1010px]:pt-44 max-[1010px]:pb-14 max-[1010px]:w-5/8 max-[1010px]:h-full"
         />
       </div>
-      <div className="w-1/2 text-2xl font-medium text-center tracking-wide text-[#cfd9e1] font-fangsong italic max-[1010px]:w-full max-[1010px]:text-left">
+      <div className="w-1/2 text-2xl font-medium text-center tracking-wide text-[#cfd9e1] font-fangsong italic max-[1010px]:w-full max-[1010px]:text-left max-[450px]:text-xl">
         <div className="text-[#d19c96] font-semibold">{about_text_one}</div>
         <div>{about_text_two}</div>
       </div>

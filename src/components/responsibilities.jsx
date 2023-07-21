@@ -20,15 +20,15 @@ function Responsibilities() {
     },
   ];
   return (
-    <div className="flex justify-center items-center px-20 w-full h-screen">
-      <div className=" w-2/5 text-center">
+    <div className="flex justify-center items-center px-20 w-full h-screen max-[1010px]:flex-col max-[1010px]:justify-evenly max-[1010px]:pt-44 max-[730px]:px-6 max-[440px]:h-full">
+      <div className=" w-2/5 text-center justify-center max-[912px]:w-3/5 max-[440px]:w-4/5">
         <img
           src={responsibilities_image}
           alt="responsibilities_image"
-          className="w-3/4 h-3/5 rounded-lg"
+          className="w-3/4 h-3/5 rounded-lg max-[1010px]:w-full max-[1010px]:h-full"
         />
       </div>
-      <div className="w-3/5 text-2xl font-medium tracking-wide text-[#cfd9e1] font-fangsong italic">
+      <div className="w-3/5 text-2xl font-medium tracking-wide text-[#cfd9e1] font-fangsong italic max-[1010px]:w-full max-[912px]:text-xl max-[440px]:text-lg">
         {data.map((item) => (
           <div className="p-2">{item.resp}</div>
         ))}

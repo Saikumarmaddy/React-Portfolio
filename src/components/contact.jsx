@@ -51,7 +51,7 @@ function Contact() {
   };
   return (
     <form
-      className="flex flex-col justify-center items-center px-20 w-full h-screen"
+      className="flex flex-col justify-center items-center px-20 w-full h-screen max-[490px]:px-10 max-[400px]:px-4"
       ref={form}
       onSubmit={sendEmail}
     >
@@ -64,10 +64,10 @@ function Contact() {
           <p class="text-base">Form has been submitted successfully!</p>
         </div>
       </div> */}
-      <div className="flex w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-[700px]:flex-col max-[700px]:items-start max-[700px]:justify-start max-[1100px]:justify-around">
         <label
           htmlFor="user_name"
-          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left"
+          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left max-[700px]:p-2 max-[540px]:text-xl"
         >
           Name:
         </label>
@@ -75,15 +75,15 @@ function Contact() {
           type="text"
           name="user_name"
           value={user_name}
-          className="w-1/3 p-2 m-4 rounded-md outline-none"
+          className="w-1/3 p-2 m-4 rounded-md outline-none max-[700px]:m-2 max-[700px]:w-10/12 max-[1100px]:w-8/12 "
           placeholder="Enter your name..."
           onChange={(e) => handleName(e)}
         />
       </div>
-      <div className="flex w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-[700px]:flex-col max-[700px]:items-start max-[700px]:justify-start max-[1100px]:justify-around">
         <label
           htmlFor="user_email"
-          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left"
+          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left max-[700px]:p-2 max-[540px]:text-xl"
         >
           Email:
         </label>
@@ -91,15 +91,15 @@ function Contact() {
           type="email"
           name="user_email"
           value={user_email}
-          className="w-1/3 p-2 m-4 rounded-md outline-none"
+          className="w-1/3 p-2 m-4 rounded-md outline-none max-[700px]:m-2 max-[700px]:w-10/12 max-[1100px]:w-8/12 "
           placeholder="Enter your email..."
           onChange={(e) => handleEmail(e)}
         />
       </div>
-      <div className="flex w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-[700px]:flex-col max-[700px]:items-start max-[700px]:justify-start max-[1100px]:justify-around">
         <label
           htmlFor="user_mobile"
-          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left"
+          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left max-[700px]:p-2 max-[540px]:text-xl"
         >
           Mobile:
         </label>
@@ -107,14 +107,14 @@ function Contact() {
           type="tel"
           name="user_mobile"
           value={user_mobile}
-          className="w-1/3 p-2 m-4 rounded-md outline-none"
+          className="w-1/3 p-2 m-4 rounded-md outline-none max-[700px]:m-2 max-[700px]:w-10/12 max-[1100px]:w-8/12 "
           placeholder="Enter your mobile no..."
           onChange={(e) => handleMobile(e)}
         />
       </div>
-      <div className="flex w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-[700px]:flex-col max-[700px]:items-start max-[700px]:justify-start max-[1100px]:justify-around">
         <label
-          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left"
+          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left max-[700px]:p-2 max-[540px]:text-xl"
           htmlFor="user_subject"
         >
           Subject:
@@ -123,21 +123,21 @@ function Contact() {
           type="text"
           name="user_subject"
           value={user_subject}
-          className="w-1/3 p-2 m-4 rounded-md outline-none"
+          className="w-1/3 p-2 m-4 rounded-md outline-none max-[700px]:m-2 max-[700px]:w-10/12 max-[1100px]:w-8/12 "
           placeholder="Enter your subject..."
           onChange={(e) => handleSubject(e)}
         />
       </div>
-      <div className="flex w-full justify-center items-center">
+      <div className="flex w-full justify-center items-center max-[700px]:flex-col max-[700px]:items-start max-[700px]:justify-start max-[1100px]:justify-around">
         <label
           htmlFor="user_message"
-          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left"
+          className="w-32 text-2xl font-semibold tracking-wide text-[#cfd9e1] font-fangsong text-left max-[700px]:p-2 max-[540px]:text-xl"
         >
           Message:
         </label>
         <textarea
           name="message"
-          className="w-1/3 h-28 p-2 m-4 rounded-md outline-none"
+          className="w-1/3 h-28 p-2 m-4 rounded-md outline-none max-[700px]:m-2 max-[700px]:w-10/12 max-[1100px]:w-8/12 "
           placeholder="Enter your message..."
           value={user_message}
           onChange={(e) => handleMessage(e)}
@@ -147,7 +147,7 @@ function Contact() {
         type="submit"
         value="Submit"
         className="w-1/6 px-4 py-2 mt-4 text-2xl tracking-wide rounded-md border-2 border-transparent bg-[#fc8079] text-white font-semibold
-              hover:bg-transparent hover:border-2 hover:border-[#fc8079] hover:font-bold hover:tracking-wide"
+              hover:bg-transparent hover:border-2 hover:border-[#fc8079] hover:font-bold hover:tracking-wide max-[944px]:w-1/5 max-[700px]:w-2/5 max-[540px]:w-4/6"
       >
         Submit
       </button>

@@ -11,7 +11,7 @@ import NoMatch from './components/noMatch';
 
 function App() {
   return (
-    <div className="bg-bg-pattern w-full h-screen bg-cover bg-center bg-fixed">
+    <div className="bg-bg-pattern w-full h-full bg-cover bg-center bg-fixed">
       <Navbar />
       <Routes>
         <Route path='/React-Portfolio' element={<Home />} />

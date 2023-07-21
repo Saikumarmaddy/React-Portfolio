@@ -31,6 +31,7 @@ function Navbar() {
                 </span>
               </div>
               {/* max-[1365px]:hidden */}
+              {/* style={{ "font-size": "9px" }} */}
               <div
                 className="list-none bg-zinc-800 p-2 rounded-lg max-lg:my-1"
                 style={{ "font-size": "9px" }}

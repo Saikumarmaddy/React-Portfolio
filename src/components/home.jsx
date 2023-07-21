@@ -52,10 +52,10 @@ function Home() {
           <div className="py-1 text-4xl font-semibold text-center tracking-wide text-teal-300 font-Cursive italic">
             {quotation_two}
           </div> */}
-          <div className="grow flex items-center py-1 text-4xl font-medium text-center tracking-wide text-[#cfd9e1] font-fangsong italic max-[945px]:text-3xl max-[1200px]:text-left max-[540px]:text-2xl">
+          <div className="grow flex items-center py-1 text-4xl font-medium text-center tracking-wide text-[#cfd9e1] font-fangsong italic max-[945px]:text-3xl max-[1200px]:text-left max-[540px]:text-2xl max-[450px]:text-xl">
             {quotation_three}
           </div>
-          <div className="grow w-11/12 py-1 text-4xl font-semibold text-right tracking-wide text-[#fc8079] font-fangsong italic max-[945px]:text-3xl max-[540px]:text-2xl">
+          <div className="grow w-11/12 py-1 text-4xl font-semibold text-right tracking-wide text-[#fc8079] font-fangsong italic max-[945px]:text-3xl max-[540px]:text-2xl max-[450px]:text-lg">
             {quotation_three_sub}
           </div>
         </div>
