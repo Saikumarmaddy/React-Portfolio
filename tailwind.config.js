@@ -12,12 +12,15 @@ module.exports = {
         '47vh': "47.5vh"
       },
       padding: {
+        '4per': "4%",
+        '92per': "92%",
         '20per': "20%",
         '10per': "10%"
       },
       margin: {
         '20per': "20%",
-        '10per': "10%"
+        '10per': "10%",
+        '4per': "4%"
       },
       width: {
         '320px': "320px",
@@ -25,12 +28,6 @@ module.exports = {
       },
       fontFamily: {
         'fangsong': "fangsong"
-      },
-      padding: {
-        '4per': "4%"
-      },
-      margin: {
-        '4per': "4%"
       }
     },
   },
