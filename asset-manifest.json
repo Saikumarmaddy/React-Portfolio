@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.c7993764.css",
-    "main.js": "/React-Portfolio/static/js/main.0befe8e3.js",
+    "main.css": "/React-Portfolio/static/css/main.41bceb69.css",
+    "main.js": "/React-Portfolio/static/js/main.29081360.js",
     "static/media/Sai Kumar profile image.jpg": "/React-Portfolio/static/media/Sai Kumar profile image.cf534b2a73e32e7b2269.jpg",
     "static/media/Sai_Kumar_Maddala.pdf": "/React-Portfolio/static/media/Sai_Kumar_Maddala.fcdcd0320bb1e0d7c724.pdf",
     "static/media/background_11.wide.jpeg": "/React-Portfolio/static/media/background_11.wide.fe2d4c675e58aa43955f.jpeg",
@@ -10,11 +10,11 @@
     "static/media/ACC.png": "/React-Portfolio/static/media/ACC.503dd100a669975566b4.png",
     "static/media/TCS.png": "/React-Portfolio/static/media/TCS.5b29b93432362377bdd6.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.c7993764.css.map": "/React-Portfolio/static/css/main.c7993764.css.map",
-    "main.0befe8e3.js.map": "/React-Portfolio/static/js/main.0befe8e3.js.map"
+    "main.41bceb69.css.map": "/React-Portfolio/static/css/main.41bceb69.css.map",
+    "main.29081360.js.map": "/React-Portfolio/static/js/main.29081360.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7993764.css",
-    "static/js/main.0befe8e3.js"
+    "static/css/main.41bceb69.css",
+    "static/js/main.29081360.js"
   ]
 }
