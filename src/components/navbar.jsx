@@ -28,7 +28,7 @@ function Navbar() {
               className="text-xl flex justify-between max-[1365px]:flex-col"
               style={{ "font-size": "18px" }}
             >
-              <div className="bg-zinc-800 p-2 rounded-lg w-72 max-lg:my-1 max-[1365px]:my-2">
+              <div className="bg-zinc-800 p-2 rounded-lg w-90 max-lg:my-1 max-[1365px]:my-2">
                 <span className="flex-none italic text-zinc-200 font-semibold tracking-wider pl-6 text-xl">
                   {myName}
                 </span>
