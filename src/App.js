@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './components/navbar';
+import NavbarTop from './components/navbar_top';
+import NavbarBottom from './components/navbar_bottom';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/home';
 import About from './components/about';
@@ -8,11 +9,13 @@ import Experience from './components/experience';
 import Contact from './components/contact';
 import Responsibilities from './components/responsibilities';
 import NoMatch from './components/noMatch';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="bg-bg-pattern w-full h-full bg-cover bg-center bg-fixed">
-      <Navbar />
+      <NavbarTop />
+      <NavbarBottom />
       <Routes>
         <Route path='/React-Portfolio' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -22,6 +25,7 @@ function App() {
         <Route path='/get-in-touch' element={<Contact />} />
         <Route path='*' element={<NoMatch />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

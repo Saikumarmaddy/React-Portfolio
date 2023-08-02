@@ -9,7 +9,7 @@ module.exports = {
         'bg-pattern': "url('./assets/images/background_11.wide.jpeg')"
       },
       height: {
-        '47vh': "47.5vh"
+        '37vh': "37.4vh"
       },
       padding: {
         '4per': "4%",

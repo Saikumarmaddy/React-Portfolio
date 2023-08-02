@@ -19,7 +19,7 @@ function Experience() {
     {
       org: "Accenture",
       role: "Application Development Senior Analyst Jan'22 - Dec'22",
-      exp: "• Worked in developing an application where users can view and track their submitted requests.\n• This application has developed adapting latest web accessibility standards so that visually impaired and hearing-impaired users can also access the application with ease.\n𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: ReactJS, CSS/LESS, JavaScript, GIT, HTML, CSS...",
+      exp: "• Worked in developing an application where users can view and track their submitted requests.\n• This application has developed adapting latest web accessibility standards so that visually impaired users also be able to access the application with ease.\n𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: ReactJS, CSS/LESS, JavaScript, GIT, HTML, CSS...",
       platform: "Online Retirement funds platform",
       period: "Jan'22 - Dec'22",
     },
