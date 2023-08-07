@@ -34,5 +34,4 @@ module.exports = {
   plugins: [],
 }
 
-
 //min-[1500px]:px-20per  min-[1080px]:px-10per
