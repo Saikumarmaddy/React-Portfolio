@@ -24,7 +24,8 @@ module.exports = {
       },
       width: {
         '320px': "320px",
-        '450px': "450px"
+        '450px': "450px",
+        '45per': "49%"
       },
       fontFamily: {
         'fangsong': "fangsong"

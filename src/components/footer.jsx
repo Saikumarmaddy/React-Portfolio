@@ -11,14 +11,14 @@ function Footer() {
   const WorkAddress = "Bengaluru, Karnataka, India";
 
   return (
-    <footer className="flex flex-col justify-center items-center w-full h-72 pb-2 px-10 bg-black bg-opacity-40">
+    <footer className="flex flex-col justify-center items-center w-full h-72 pb-2 px-10 bg-blue-300 bg-opacity-20 bg-gradient-to-tr from-black max-[565px]:px-5">
       <div className="p-2 rounded-lg max-lg:my-1 max-[1365px]:my-2">
-        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-3xl underline">
+        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-3xl underline max-[565px]:text-2xl">
           {JoinMe}
         </span>
       </div>
       <div className="rounded-lg max-lg:my-1 max-[1365px]:my-2">
-        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-lg">
+        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-lg max-[565px]:text-base">
           {MailID}
         </span>
       </div>
@@ -26,12 +26,12 @@ function Footer() {
         <span className="flex-none italic text-zinc-200 font-semibold tracking-wider text-sm underline">
           {worksIn}
         </span>
-        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-2 text-lg">
+        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-2 text-lg max-[565px]:text-base">
           {WorkAddress}
         </span>
       </div>
       <div className="rounded-lg max-lg:my-1 max-[1365px]:my-2">
-        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-lg">
+        <span className="flex-none italic text-zinc-200 font-semibold tracking-wider px-5 text-lg max-[565px]:text-base">
           {Address}
         </span>
       </div>

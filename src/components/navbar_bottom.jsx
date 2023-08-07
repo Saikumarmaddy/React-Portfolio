@@ -19,7 +19,7 @@ function Navbar() {
     setBreadcrumbActive(false);
   };
   return (
-    <nav className="w-full pt-32 pb-4 px-10 text-white">
+    <nav className="w-full pt-40 pb-16 px-10 text-white max-[1400px]:pt-32 max-[1400px]:pb-8">
       <div className="max-[1365px]:flex justify-end items-center text-red">
         <div>
           <div
@@ -29,7 +29,7 @@ function Navbar() {
             <div
               className={`${
                 !breadcrumbActive
-                  ? "w-1/2 list-none p-2 rounded-lg max-lg:my-1 max-[1365px]:hidden"
+                  ? "w-5/12 list-none p-2 rounded-lg max-lg:my-1 max-[1365px]:hidden"
                   : "list-none w-full absolute z-50 top-44 bg-[#133B5F] bg-opacity-80 p-2 rounded-lg max-lg:my-1 left-0"
               }`}
             >
@@ -45,7 +45,7 @@ function Navbar() {
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Home
                   </li>
                 </NavLink>
@@ -54,7 +54,7 @@ function Navbar() {
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     About
                   </li>
                 </NavLink>
@@ -63,7 +63,7 @@ function Navbar() {
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Skills
                   </li>
                 </NavLink>
@@ -72,25 +72,25 @@ function Navbar() {
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Experience
                   </li>
                 </NavLink>
-                <NavLink
+                {/* <NavLink
                   to="/responsibilities"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Responsibilities
                   </li>
                 </NavLink>
-                {/* <NavLink
+                <NavLink
                   to="/get-in-touch"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl">
+                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Contact
                   </li>
                 </NavLink> */}
@@ -100,14 +100,14 @@ function Navbar() {
         </div>
         {!breadcrumbActive ? (
           <div
-            className="bg-zinc-800 p-2 mb-10 rounded-lg h-12 cursor-pointer min-[1365px]:hidden max-[1365px]:mb-1"
+            className="bg-zinc-200 p-2 mb-10 rounded-lg h-12 cursor-pointer min-[1365px]:hidden max-[1365px]:mb-1"
             onClick={() => handleBreadcrumb()}
           >
             <img src={BREADCRUMB} alt="breadcrumb_icon" />
           </div>
         ) : (
           <div
-            className="bg-zinc-800 p-2 rounded-lg h-12 cursor-pointer min-[1365px]:hidden max-[1365px]:mb-1"
+            className="bg-zinc-200 p-3 rounded-lg h-12 cursor-pointer min-[1365px]:hidden max-[1365px]:mb-1"
             onClick={() => cancelBreadcrumb()}
           >
             <img src={Cancel} className="fill-blue-500" alt="cancel_icon" />
