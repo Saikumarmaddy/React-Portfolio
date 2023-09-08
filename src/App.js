@@ -7,9 +7,9 @@ import About from './components/about';
 import Skills from './components/skills';
 import Experience from './components/experience';
 import Contact from './components/contact';
-// import Responsibilities from './components/responsibilities';
 import NoMatch from './components/noMatch';
 import Footer from './components/footer';
+// import Responsibilities from './components/responsibilities';
 
 function App() {
   return (
