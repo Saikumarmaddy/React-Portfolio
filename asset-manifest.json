@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.41bceb69.css",
-    "main.js": "/React-Portfolio/static/js/main.12cc9174.js",
+    "main.css": "/React-Portfolio/static/css/main.97e7add5.css",
+    "main.js": "/React-Portfolio/static/js/main.af82761a.js",
     "static/media/Sai Kumar profile image.jpg": "/React-Portfolio/static/media/Sai Kumar profile image.cf534b2a73e32e7b2269.jpg",
+    "static/media/Rolex.jpg": "/React-Portfolio/static/media/Rolex.06118b5f8c7840909764.jpg",
+    "static/media/Warrior.jpg": "/React-Portfolio/static/media/Warrior.cf5aa1b85930d7e9d1db.jpg",
+    "static/media/Bheeshma.jpg": "/React-Portfolio/static/media/Bheeshma.dca35573dea503cc4954.jpg",
+    "static/media/Asuran.jpg": "/React-Portfolio/static/media/Asuran.79d39917122a03c34d68.jpg",
+    "static/media/Rage.jpg": "/React-Portfolio/static/media/Rage.3a2eeebd188ddce91ee9.jpg",
     "static/media/Sai_Kumar_Maddala.pdf": "/React-Portfolio/static/media/Sai_Kumar_Maddala.58346b92aec57b2e0702.pdf",
+    "static/media/Bahubali.jpg": "/React-Portfolio/static/media/Bahubali.d381a2e944ee2a9623b1.jpg",
     "static/media/background_11.wide.jpeg": "/React-Portfolio/static/media/background_11.wide.fe2d4c675e58aa43955f.jpeg",
-    "static/media/responsibilities.webp": "/React-Portfolio/static/media/responsibilities.9ee8d6b17a4de5701380.webp",
     "service-worker.js": "/React-Portfolio/service-worker.js",
     "static/media/ACC.png": "/React-Portfolio/static/media/ACC.503dd100a669975566b4.png",
     "static/media/TCS.png": "/React-Portfolio/static/media/TCS.5b29b93432362377bdd6.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.41bceb69.css.map": "/React-Portfolio/static/css/main.41bceb69.css.map",
-    "main.12cc9174.js.map": "/React-Portfolio/static/js/main.12cc9174.js.map"
+    "main.97e7add5.css.map": "/React-Portfolio/static/css/main.97e7add5.css.map",
+    "main.af82761a.js.map": "/React-Portfolio/static/js/main.af82761a.js.map"
   },
   "entrypoints": [
-    "static/css/main.41bceb69.css",
-    "static/js/main.12cc9174.js"
+    "static/css/main.97e7add5.css",
+    "static/js/main.af82761a.js"
   ]
 }
