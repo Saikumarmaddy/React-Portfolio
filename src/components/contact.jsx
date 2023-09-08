@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import GMAIL_ICON from "../assets/images/icons8-email-open-32.png";
-import PHN_ICON from "../assets/images/icons8-phonecall-cute-color-32.png";
+// import GMAIL_ICON from "../assets/images/icons8-email-open-32.png";
+// import PHN_ICON from "../assets/images/icons8-phonecall-cute-color-32.png";
 
 function Contact() {
   const form = useRef();
@@ -12,9 +12,9 @@ function Contact() {
   const [user_message, setUser_Message] = useState("");
   // const [banner, setBanner] = useState(false);
 
-  const emailId = "sai.kumar.maddala@accenture.com";
-  const contactNo = "+91 9989028355";
-  const contactText = "Reach out to me at ->";
+  // const emailId = "sai.kumar.maddala@accenture.com";
+  // const contactNo = "+91 9989028355";
+  // const contactText = "Reach out to me at ->";
 
   const handleName = (e) => {
     setUser_Name(e.target.value);
@@ -65,11 +65,11 @@ function Contact() {
         </span>
       </div> */}
       <form
-        className="flex flex-col justify-center items-center px-20 w-full h-screen max-[490px]:px-10 max-[400px]:px-4"
+        className="flex flex-col justify-start items-center px-20 pb-20 w-full h-full max-[490px]:px-10 max-[400px]:px-4"
         ref={form}
         onSubmit={sendEmail}
       >
-        <div className="flex justify-between w-full">
+        {/* <div className="flex justify-between w-full">
           <div className="grow bg-zinc-800 p-2 text-center mr-14 rounded-lg max-lg:my-1 max-[1365px]:my-2 max-[800px]:hidden">
             <span className="italic text-zinc-200 font-semibold tracking-wider">
               {contactText}
@@ -87,7 +87,7 @@ function Contact() {
               {contactNo}
             </span>
           </div>
-        </div>
+        </div> */}
         {/* <div class="w-1/2 m-12 space-y-6">
           <div
             class="bg-green-100 border-t border-b rounded-lg border-green-500 text-green-700 px-4 py-3"

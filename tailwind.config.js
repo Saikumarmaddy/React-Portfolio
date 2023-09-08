@@ -9,7 +9,7 @@ module.exports = {
         'bg-pattern': "url('./assets/images/background_11.wide.jpeg')"
       },
       height: {
-        '47vh': "47.5vh"
+        '37vh': "37.4vh"
       },
       padding: {
         '4per': "4%",
@@ -24,7 +24,8 @@ module.exports = {
       },
       width: {
         '320px': "320px",
-        '450px': "450px"
+        '450px': "450px",
+        '45per': "49%"
       },
       fontFamily: {
         'fangsong': "fangsong"
