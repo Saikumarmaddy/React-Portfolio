@@ -23,7 +23,7 @@ function Home() {
           <img
             src={profile_image}
             alt="profile_image"
-            className="w-5/6 h-5/6 rounded-lg max-[1010px]:pt-44 max-[1010px]:pb-14 max-[1010px]:w-6/8 max-[800px]:w-full max-[1010px]:h-full"
+            className="w-9/12 h-4/6 rounded-lg max-[1010px]:pt-44 max-[1010px]:pb-14 max-[1010px]:w-6/8 max-[800px]:w-full max-[1010px]:h-full max-[1010px]:rounded-2xl"
           />
         </div>
         <div className="h-47vh p-4 my-20 flex flex-col justify-center max-[1040px]:text-xl">

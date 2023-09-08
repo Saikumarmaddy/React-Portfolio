@@ -9,6 +9,7 @@ function Navbar() {
     return {
       fontWeight: isActive ? "bold" : "normal",
       color: isActive ? "#fc8079" : "#e4e4e7",
+      fontSize: isActive && "36px",
     };
   };
 
@@ -44,55 +45,49 @@ function Navbar() {
                   to="/React-Portfolio"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
-                    Home
-                  </li>
+                  Home
                 </NavLink>
                 <NavLink
                   to="/about"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
-                    About
-                  </li>
+                  About
                 </NavLink>
                 <NavLink
                   to="/skills"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
-                    Skills
-                  </li>
+                  Skills
                 </NavLink>
                 <NavLink
                   to="/experience"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
-                    Experience
-                  </li>
+                  Experience
                 </NavLink>
                 {/* <NavLink
                   to="/responsibilities"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Responsibilities
-                  </li>
                 </NavLink>
                 <NavLink
                   to="/get-in-touch"
                   style={toStyleNav}
                   onClick={() => setBreadcrumbActive(false)}
+                  className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg"
                 >
-                  <li className="hover:text-[#fc8079] cursor-pointer px-2 text-xl max-[455px]:text-lg">
                     Contact
-                  </li>
                 </NavLink> */}
               </div>
             </div>

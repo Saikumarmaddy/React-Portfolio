@@ -8,6 +8,7 @@ function Navbar() {
     return {
       fontWeight: isActive ? "bold" : "normal",
       color: isActive ? "#fc8079" : "#e4e4e7",
+      backgroundColor: isActive ? "#fc8079" : "#e4e4e7",
     };
   };
   return (

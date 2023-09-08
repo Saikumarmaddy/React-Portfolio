@@ -67,7 +67,7 @@ function About() {
     "When I am not at the computer, I usually do sketching, watching movies and hanging out with friends & family.";
   return (
     <div>
-      <div className="flex items-start justify-center pl-20 pr-10 w-full h-full max-[1010px]:flex-col max-[540px]:px-10">
+      <div className="flex items-start justify-center pl-20 pr-10 py-28 w-full h-full max-[1010px]:flex-col max-[540px]:px-10">
         {/* <div className="w-5/12 text-center max-[1010px]:w-3/4">
           <img
             src={profile_image}
@@ -80,9 +80,9 @@ function About() {
             <div className="text-[#d19c96] font-semibold">{about_text_one}</div>
             <div>{about_text_two}</div>
           </div>
-          <div className="my-10 text-2xl font-medium text-left tracking-wide text-[#cfd9e1] font-fangsong italic max-[1010px]:w-full max-[1010px]:text-left max-[450px]:text-xl bg-[#54B4D3] bg-opacity-25 bg-gradient-to-l from-black rounded-lg">
+          <div className="my-10 py-5 text-2xl font-medium text-left tracking-wide text-[#cfd9e1] font-fangsong italic max-[1010px]:w-full max-[1010px]:text-left max-[450px]:text-xl bg-[#54B4D3] bg-opacity-25 bg-gradient-to-l from-black rounded-lg">
             {data.map((item) => (
-              <div className="flex items-start my-1">
+              <div className="flex items-start my-1 py-1">
                 <span className="">
                   <img
                     src={CheckMark}
@@ -113,7 +113,7 @@ function About() {
           ))}
         </Slide>
       </div> */}
-      <div className="w-3/4 bg-black ml-10per mb-24 rounded-2xl relative text-center p-10 mt-24">
+      <div className="w-3/4 bg-black ml-10per mb-24 rounded-2xl relative text-center p-10 mt-24 max-[1400px]:hidden">
         <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#54B4D3] to-[#14A44D] text-5xl italic tracking-wider">
           MY SKETCHES
         </span>
