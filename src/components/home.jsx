@@ -35,7 +35,7 @@ function Home() {
               <span className="py-4 text-6xl text-[#cfd9e1] font-bold max-[1035px]:text-7xl max-[850px]:text-6xl max-[760px]:text-5xl max-[650px]:text-4xl max-[470px]:text-3xl">
                 {greeting}
               </span>
-              <span className="py-4 text-8xl text-[#c47842] font-bold max-[1035px]:text-7xl max-[850px]:text-6xl max-[760px]:text-5xl max-[650px]:text-4xl max-[470px]:text-3xl bg-gradient-to-r from-[#54B4D3] to-[#14A44D] bg-clip-text text-transparent">
+              <span className="py-4 text-6xl text-[#c47842] font-bold max-[1035px]:text-7xl max-[850px]:text-6xl max-[760px]:text-5xl max-[650px]:text-4xl max-[470px]:text-3xl bg-gradient-to-r from-[#54B4D3] to-[#14A44D] bg-clip-text text-transparent">
                 {resource_name}
               </span>
             </div>
