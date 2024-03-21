@@ -10,11 +10,12 @@ import Image_3 from "../assets/images/Sketches/Rage.jpg";
 import Image_4 from "../assets/images/Sketches/Bahubali.jpg";
 import Image_7 from "../assets/images/Sketches/Rolex.jpg";
 import Image_8 from "../assets/images/Sketches/Warrior.jpg";
+import Image_9 from "../assets/images/Sketches/Vibhishana.jpg";
 
 function About() {
   const about_text_one = "A passionate Frontend Developer!";
   const about_text_two =
-    "  Currently designated as an Application Development Senior Analyst in Accenture with 4.7years of overall experience. I started my career as Avionics Software engineer in verification and Validation, later got shifted to Frontend side of web development, which helped me in having exposure to the complete model.";
+    "  Currently designated as an Application Development Senior Analyst in Accenture with 5.1years of overall experience. I started my career as Avionics Software engineer in verification and Validation, later got shifted to Frontend side of web development, which helped me in having exposure to the complete model.";
   const data = [
     {
       resp: "Active involvement in leading the team by taking the ownership of assigned tasks.",
@@ -33,6 +34,7 @@ function About() {
     { url: Image_4, caption: "Bahubali" },
     { url: Image_7, caption: "Rolex" },
     { url: Image_8, caption: "Warrior" },
+    { url: Image_9, caption: "Vibhishana" },
   ];
   // const spanStyle = {
   //   padding: "20px",
@@ -114,7 +116,7 @@ function About() {
         </Slide>
       </div> */}
       <div className="w-3/4 bg-black ml-10per mb-24 rounded-2xl relative text-center p-10 mt-24 max-[1400px]:hidden">
-        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#54B4D3] to-[#14A44D] text-5xl italic tracking-wider">
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-[#54B4D3] to-[#14A44D] text-5xl italic tracking-widest">
           MY SKETCHES
         </span>
         <SimpleImageSlider

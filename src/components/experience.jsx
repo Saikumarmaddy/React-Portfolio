@@ -12,25 +12,41 @@ function Experience() {
   const data = [
     {
       org: "Accenture",
-      role: "Application Development Senior Analyst Jan'23 - Present",
+      role: "Application Development Senior Analyst Feb'23 - Present",
       exp: [
         {
           exp_point_1:
-            "Working in creating Functional design documents with thorough understanding of the retail domain functionalities.",
+            "I have been working in developing an application that deals with the user submitted records and keep tracking of it.",
           exp_point_2:
-            "I have been working in integrating Enactor a 3rd party tool to existing client web application by adding custom UI functionalities to the web application.",
+            "This involves Authentication, managing states centrally through Redux, creating reusable components using AntD, code management through github.",
           exp_point_3:
-            "This work helps me in understanding the Functional side of the project, as I involve in creating FDs, Process Flows etc…",
-          exp_point_4:
-            "𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: Enactor Integration, XML creation, ReactJS, JavaScript, HTML, CSS...",
+            "𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: ReactJS, AntD, CSS, Javascript, github.",
         },
       ],
-      platform: "Integrating Enactor with Retail(POS) platform",
-      period: "Jan'23 - Present",
+      platform: "Drug Report Tracking Portal",
+      period: "Feb'23 - Present",
     },
+    // {
+    //   org: "Accenture",
+    //   role: "Application Development Senior Analyst Jan'23 - Present",
+    //   exp: [
+    //     {
+    //       exp_point_1:
+    //         "Working in creating Functional design documents with thorough understanding of the retail domain functionalities.",
+    //       exp_point_2:
+    //         "I have been working in integrating Enactor a 3rd party tool to existing client web application by adding custom UI functionalities to the web application.",
+    //       exp_point_3:
+    //         "This work helps me in understanding the Functional side of the project, as I involve in creating FDs, Process Flows etc…",
+    //       exp_point_4:
+    //         "𝑻𝒆𝒄𝒉 𝒔𝒕𝒂𝒄𝒌 𝒊𝒏𝒄𝒍𝒖𝒅𝒆𝒅: Enactor Integration, XML creation, ReactJS, JavaScript, HTML, CSS...",
+    //     },
+    //   ],
+    //   platform: "Integrating Enactor with Retail(POS) platform",
+    //   period: "Jan'23 - Present",
+    // },
     {
       org: "Accenture",
-      role: "Application Development Senior Analyst Jan'22 - Dec'22",
+      role: "Application Development Senior Analyst Jan'22 - Feb'23",
       exp: [
         {
           exp_point_1:
@@ -42,7 +58,7 @@ function Experience() {
         },
       ],
       platform: "Online Retirement funds platform",
-      period: "Jan'22 - Dec'22",
+      period: "Jan'22 - Feb'23",
     },
     {
       org: "Accenture",
@@ -106,17 +122,17 @@ function Experience() {
     },
   ];
   return (
-    <div className="w-full px-20 h-full ">
+    <div className="w-full px-20 h-full">
       <div className="flex justify-between items-start font-medium text-center text-[#d19c96] font-fangsong max-[1010px]:flex-col max-[1010px]:justify-stretch max-[1010px]:pt-44 max-[730px]:px-6">
-        <div className="min-[1010px]:flex-col justify-center items-center w-2/5 h-2/6 px-20 flex max-[1010px]:w-4/5 max-[1010px]:4/6 max-[730px]:px-0">
-          <div className="w-full h-1/2">
+        <div className="min-[1010px]:flex-col justify-center items-center w-2/5 h-2/6 px-20 flex max-[1010px]:w-4/5 max-[1010px]:4/6 max-[730px]:px-0 mt-12">
+          <div className="w-full h-1/2 m-6">
             <img
               src={acc_image}
               alt="acc_image"
               className="w-3/4 h-3/5 rounded-lg max-[450px]:w-4/5"
             />
           </div>
-          <div className="w-full h-1/2">
+          <div className="w-full h-1/2 m-6">
             <img
               src={tcs_image}
               alt="tcs_image"
